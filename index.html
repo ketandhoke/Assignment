@@ -1,0 +1,246 @@
+<!DOCTYPE html>  
+
+<html>  
+   <head> 
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Mulish' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="main.js"></script> 
+  <title>SlingPixel</title> 
+      
+   </head> 
+  
+   <body> 
+      <header role = "banner"> 
+         <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html"><img src="images/logo.jpg"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">All Event</a></li>
+        <li><a href="#">Share Event History</a></li>
+        <li><a href="#">Your Contributions </a></li>
+        <li><a href="#"><i class="fa fa-user-circle user-info" aria-hidden="true"></i> Nitin Bhatkar</a></li>
+      </ul>
+      
+    </div>
+  </div>
+</nav> 
+      </header> 
+   
+      <article> 
+         <section> 
+           <div class="container text-center">    
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="profile-1">
+        <img src="images/profile.png" class="img-circle" height="150" width="150" alt="Avatar">
+        <div class="profile-title">Nitin Bhatkar</div>
+        <div class="profile-title2">| click images for the Events & Awards</div>
+      </div>
+      <div class="profile-box">
+        <h3 class="profile-num">52</h3>
+        <div class="profile-data"> Slingpixel you had uploaded. 
+        <hr class="new1">
+      </div>
+
+        <h3 class="profile-num">51</h3>
+        <div class="profile-data"> Slingpixel are active in website.
+        <hr class="new1">
+        </div>
+
+        <h3 class="profile-num">1</h3>
+        <div class="profile-data"> Slingpixel are inactive in website. 
+        <hr class="new1">
+        </div>
+
+        <h3 class="profile-num">0</h3>
+        <div class="profile-data"> Slingpixel are rejected by website admin.</div>
+
+      </div>
+      
+      
+    </div>
+    <div class="col-sm-6">
+    
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="panel panel-default text-left">
+            <div>
+              <div class="upload-sec">
+              <div class="upload-txt">
+              <p class="upload-txt2">Upload by Slingpixel</p>
+            </div></div>
+            <div>
+            
+             <input type="text" class="form-control file" placeholder="File Discription">
+              
+              
+              <input type="text" class="form-control file-1" placeholder="HyperLink for Image">
+              
+            </div>
+            <div>
+            <ul class="data info">
+              <li class="data-bg"><i class="fa fa-camera-retro" aria-hidden="true"></i> Photos/Videos</li>
+              <li class="data-bg name-icon">SlingPixel <span class="glyphicon glyphicon-triangle-bottom name-icon-1"></span></li>
+              
+              <li class="uplod"><label class="btn-bs-file btn btn-primary">
+                Upload
+                <input type="file" />
+            </label></li>
+
+              
+            </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="text-1"><span>Show Recent Images</span></p>
+
+
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="panel panel-default" >
+          <div class="profile">
+           <img src="images/profile.png" class="img-circle" height="45" width="45" alt="Avatar">
+           <span class="profile-text">Nitin Bhatkar</span>
+           <span class="glyphicon glyphicon-triangle-right profile-icon"></span> 
+           <span class="profile-text">SlingPixel</span> 
+           <span class="profile-time">13 hours ago</span>
+          </div>
+          
+          <div >
+            <img src="images/feed-1.jpg" class="img-responsive">
+          </div>
+<div class="feed-title">
+  <h4>Concept Software </h4>
+</div>
+<hr class="new1">
+<div class="feed-2">
+  <i class="fa fa-thumbs-o-up post-icon-1 circle-icon color" style="cursor: pointer;" onClick="clickME()"></i><span id="clicks">0</span> 
+  <i class="fa fa-thumbs-o-down post-icon-2 circle-icon" style="cursor: pointer;" onClick="clickME()"></i><span id="clicks" >0</span> 
+  <i class="fa fa-comment-o post-icon-2 circle-icon" style="cursor: pointer;" onClick="clickME()"></i><span>0</span>
+  <span class="dot" ></span> 
+  <span class="status">Status - </span> 
+
+</div>
+<hr class="new1">
+<div  class="profile">
+           <img src="images/profile.png" class="img-circle" height="45" width="45" alt="Avatar">
+           <input type="text" class="form-control comment-box" placeholder="Write a comment">
+          </div>
+        <div> 
+        </div>
+        </div>
+          
+        <div class="row">
+        <div class="col-sm-12">
+          <div class="panel panel-default" >
+          <div class="profile">
+           <img src="images/logo.jpg" class="img-circle" height="45" width="45" alt="Avatar">
+           <span class="profile-text">Nitin Bhatkar</span>
+           <span class="glyphicon glyphicon-triangle-right profile-icon"></span> 
+           <span class="profile-text">SlingPixel</span> 
+           <span class="profile-time">5 days ago</span>
+          </div>
+          
+          <div >
+            <img src="images/feed-1.jpg" class="img-responsive">
+          </div>
+<div class="feed-title">
+  <h4>Testing </h4>
+</div>
+<hr class="new1">
+<div class="feed-2">
+  <i class="fa fa-thumbs-o-up post-icon-1 circle-icon" style="cursor: pointer;" onClick="clickME()"></i><span id="clicks" >0</span> 
+  <i class="fa fa-thumbs-o-down post-icon-2 circle-icon" style="cursor: pointer;" onClick="clickME()"></i><span id="clicks" >0</span> 
+  <i class="fa fa-comment-o post-icon-2 circle-icon"></i style="cursor: pointer;" onClick="clickME()"><span>0</span>
+  <span class="dot" ></span> 
+  <span class="status">Status - </span> 
+
+</div>
+<hr class="new1">
+<div  class="profile">
+           <img src="images/profile.png" class="img-circle" height="45" width="45" alt="Avatar">
+           <input type="text" class="form-control comment-box" placeholder="Write a comment">
+          </div>
+        <div> 
+        </div>
+        </div></div></div>
+       
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="panel panel-default" >
+          <div class="profile">
+           <img src="images/profile.png" class="img-circle" height="45" width="45" alt="Avatar">
+           <span class="profile-text">Nitin Bhatkar</span>
+           <span class="glyphicon glyphicon-triangle-right profile-icon"></span> 
+           <span class="profile-text">SlingPixel</span> 
+           <span class="profile-time">31 days ago</span>
+          </div>
+          
+          <div >
+            <img src="images/feed-2.jpg" class="img-responsive">
+          </div>
+<div class="feed-title">
+  <h4>science project is complete </h4>
+</div>
+<hr class="new1">
+<div class="feed-2">
+  <i class="fa fa-thumbs-o-up post-icon-1 circle-icon" style="cursor: pointer;" onClick="clickME()"></i><span id="clicks" >0</span> 
+  <i class="fa fa-thumbs-o-down post-icon-2 circle-icon" style="cursor: pointer;" onClick="clickME()"></i><span id="clicks" >0</span> 
+  <i class="fa fa-comment-o post-icon-2 circle-icon" style="cursor: pointer;" onClick="clickME()"></i><span>1</span>
+  <span class="dot" ></span> 
+  <span class="status">Status - </span> 
+
+</div>
+<hr class="new1">
+<div  class="profile">
+           <img src="images/profile.png" class="img-circle" height="45" width="45" alt="Avatar">
+           <input type="text" class="form-control comment-box" placeholder="Write a comment">
+          </div>
+          <div  class="profile">
+           <img src="images/profile-1.png" class="img-circle" height="45" width="45" alt="Avatar">
+           <h4 class="comment-box">Robi Dada awesome</h4>
+          </div>
+        <div> 
+        </div>
+        </div></div></div>
+
+        </div>
+
+      </div>     
+    </div>
+    <div class="col-sm-3 ">
+      <div class="thumbnail">
+        <p class="ads-text">Help ads</p>
+        <img src="images/help-ads.jpg" alt="help-ads" class="img-responsive ads-img">
+        <p class="ads-text-2">Develop Slingpixel in the websites to show the world about yourself.</p>
+        
+            
+    </div>
+  </div>
+</div>
+         </section> 
+      </article> 
+   
+      <footer class="container-fluid text-center">
+ 
+</footer>
+   
+   </body> 
+</html> 
